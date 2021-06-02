@@ -9,7 +9,7 @@ document.addEventListener(
 
             for (const product of products) {
                 if (product.id === parseInt(productId)) {
-                    window.alert(`${product.name} services ${product.price}`)
+                    window.alert(`${product.name} \n price: $${product.price.toFixed(2)}`)
                 }
             }
         }
